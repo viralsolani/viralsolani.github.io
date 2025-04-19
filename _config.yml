@@ -4,7 +4,7 @@ description: "Engineering Leader | Kubernetes | GitLab | Cloud Native | API Gate
 baseurl: ""
 url: "https://viralsolani.github.io"
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 author:
   name: "Viral Solani"
