@@ -1,31 +1,15 @@
 title: "Viral Solani"
 description: "Engineering Leadership | Kubernetes | API Platforms | GitLab | Cloud Enthusiast"
-url: "https://viralsolani.github.io"
-baseurl: ""
-repository: "viralsolani/viralsolani.github.io"
-
-theme: minimal-mistakes-jekyll
-
-author:
-  name: "Viral Solani"
-  avatar: "/assets/images/avatar.png"
-  bio: "Tech Leader | Cloud Native | API Gateway Specialist"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/viralsolani"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/viralsolani"
+theme: minima
 
 header_pages:
   - index.md
   - blogs.md
   - cv.md
 
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-include-cache
+author:
+  name: "Viral Solani"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/viralsolani"
