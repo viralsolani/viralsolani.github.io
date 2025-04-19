@@ -1,8 +1,12 @@
 title: "Viral Solani"
-description: "Welcome to my personal tech space - sharing learnings on Kubernetes, GitLab, API Gateways, and Cloud Native platforms."
+description: "Personal Tech Blog | Kubernetes, GitLab, API Gateway & Cloud Learnings"
 theme: minima
 
-# Add navbar links
+# Define header navigation pages
 header_pages:
   - index.md
   - blogs.md
+
+# Optional: Social Links (for future if you want)
+# social_links:
+#   - { platform: github, user_url: "https://github.com/viralsolani" }
