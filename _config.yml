@@ -1,9 +1,33 @@
 title: "Viral Solani"
-description: "Engineering Leadership | Kubernetes | API Platforms | GitLab | Cloud Enthusiast"
-theme: minima
+email: "viral.solani@gmail.com"
+description: "Engineering Leader | Kubernetes | GitLab | Cloud Native | API Gateway Specialist"
+baseurl: ""
+url: "https://viralsolani.github.io"
+theme: minimal-mistakes-jekyll
 
-header_pages:
-  - index.md
-  - cv.md
+author:
+  name: "Viral Solani"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/viralsolani"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/viralsolani"
 
-author: "Viral Solani"
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+paginate: 5
+paginate_path: /page:num/
