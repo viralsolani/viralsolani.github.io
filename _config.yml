@@ -7,9 +7,4 @@ header_pages:
   - blogs.md
   - cv.md
 
-author:
-  name: "Viral Solani"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/viralsolani"
+author: "Viral Solani"
