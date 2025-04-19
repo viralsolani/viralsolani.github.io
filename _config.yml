@@ -1,20 +1,31 @@
 title: "Viral Solani"
-description: "Personal Tech Blog | Kubernetes, GitLab, API Gateway & Cloud Learnings"
-theme: minima
+description: "Engineering Leadership | Kubernetes | API Platforms | GitLab | Cloud Enthusiast"
+url: "https://viralsolani.github.io"
+baseurl: ""
+repository: "viralsolani/viralsolani.github.io"
 
-sass:
-  style: compressed
+theme: minimal-mistakes-jekyll
 
-# Include your CSS file
-include:
-  - assets/css
+author:
+  name: "Viral Solani"
+  avatar: "/assets/images/avatar.png"
+  bio: "Tech Leader | Cloud Native | API Gateway Specialist"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/viralsolani"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/viralsolani"
 
-
-# Define header navigation pages
 header_pages:
   - index.md
   - blogs.md
+  - cv.md
 
-# Optional: Social Links (for future if you want)
-# social_links:
-#   - { platform: github, user_url: "https://github.com/viralsolani" }
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-include-cache

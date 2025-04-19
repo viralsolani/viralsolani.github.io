@@ -1,5 +1,0 @@
-/* Highlight active navbar item */
-.nav-link.active {
-    font-weight: bold;
-    border-bottom: 2px solid #000000;
-}
