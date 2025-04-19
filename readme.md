@@ -1,6 +1,6 @@
 # viralsolani.github.io
 
-This is my personal website built using [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme and hosted on GitHub Pages.
+This is my personal website built using GitHub Pages with a simple custom setup.
 
 The website includes:
 
