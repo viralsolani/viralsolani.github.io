@@ -3,7 +3,7 @@ email: "viral.solani@gmail.com"
 description: "Engineering Leader | Kubernetes | GitLab | Cloud Native | API Gateway Specialist"
 baseurl: ""
 url: "https://viralsolani.github.io"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 author:
   name: "Viral Solani"
