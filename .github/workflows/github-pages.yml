@@ -6,16 +6,16 @@ on:
       - main
 
 permissions:
-  contents: read
   pages: write
   id-token: write
+  contents: read
 
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,23 +25,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
         with:
-          ruby-version: '3.2'
-
-      - name: Build site with Jekyll
-        uses: helaili/jekyll-action@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3   # <-- updated to v3
-        with:
-          path: './_site'
+          path: .   # Upload entire repo, GitHub will find _config.yml and auto-build
 
   deploy:
-    needs: build-deploy
+    needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
