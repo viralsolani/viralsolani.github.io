@@ -1,9 +1,32 @@
 title: "Viral Solani"
-description: "Engineering Leadership | Kubernetes | API Platforms | GitLab | Cloud Enthusiast"
-theme: minima
+tagline: "Engineering Leader | Kubernetes | GitLab | Cloud Native | API Platform Specialist"
+description: "Personal Blog and Portfolio"
+url: "https://viralsolani.github.io"
+baseurl: ""
 
-header_pages:
-  - index.md
-  - cv.md
+lang: "en"
+timezone: "Asia/Kolkata"
 
-author: "Viral Solani"
+author:
+  name: "Viral Solani"
+  email: "viral.solani@gmail.com"
+  github: viralsolani
+  linkedin: viralsolani
+
+social:
+  links:
+    - https://github.com/viralsolani
+    - https://linkedin.com/in/viralsolani
+
+theme: jekyll-theme-chirpy
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+paginate: 5
+paginate_path: /page:num/
+
+remote_theme: cotes2020/jekyll-theme-chirpy
