@@ -1,16 +1,11 @@
 ---
 layout: page
 title: "Blogs"
+permalink: /blogs/
 ---
 
-# 📝 Blogs
+# 📝 Blog Posts
 
-Welcome to my blog collection!
+Here you'll find a collection of all my technical blogs!
 
-I share hands-on tutorials, troubleshooting guides, and technical deep-dives related to:
-- Kubernetes
-- GitLab CI/CD
-- API Gateways
-- Monitoring and Observability
-
-(New blogs will be listed here soon 🚀)
+Stay tuned — content is coming soon 🚀
