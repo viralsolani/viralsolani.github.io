@@ -8,6 +8,8 @@ permalink: /blogs/
 
 Welcome to my blog collection! 🚀
 
+---
+
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
