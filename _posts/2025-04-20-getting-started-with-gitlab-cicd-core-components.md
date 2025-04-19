@@ -66,8 +66,6 @@ Inside a job, the script execution follows:
 
 # 📝 Example: Simple `.gitlab-ci.yml`
 
-Here’s a very basic GitLab pipeline example:
-
 ```yaml
 stages:
   - build
@@ -106,13 +104,19 @@ deploy_job:
 | **Merge Request Pipeline** | Special pipelines triggered during Merge Requests only |
 | **Scheduled Pipelines** | Pipelines that run based on a cron schedule automatically |
 
-✅ Knowing pipeline types helps in building better workflows as your projects grow!
-
 ---
 
 # 🎯 Conclusion
 
 GitLab CI/CD simplifies how teams build, test, and deploy software.  
 Starting simple — by automating build and test stages — sets a strong DevOps foundation.
+
+Stay tuned! In upcoming posts, I'll cover:
+
+- Setting up your own GitLab Runner
+- Docker image builds with GitLab
+- Deployment automation to Kubernetes
+
+Let's automate and innovate! 🚀
 
 > “First automate the boring stuff, then scale the magic.” 🔥
