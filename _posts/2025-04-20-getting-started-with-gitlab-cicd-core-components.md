@@ -4,6 +4,7 @@ title: "Getting Started with GitLab CI/CD: Core Components Explained"
 date: 2025-04-19
 categories:
   - DevOps
+  - Gitlab
 tags:
   - GitLab
   - CI/CD
