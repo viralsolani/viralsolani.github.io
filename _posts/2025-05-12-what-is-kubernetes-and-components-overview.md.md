@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 What is Kubernetes & Overview of Components"
+title: "What is Kubernetes & Overview of Components"
 date: 2025-05-12
 author: "Viral Solani"
 categories:
