@@ -5,6 +5,9 @@ theme: minima
 header_pages:
   - index.md
   - cv.md
+  - categories/gitlab.md
+  - categories/kubernetes.md
+  - categories/devops.md
 
 author: "Viral Solani"
 
