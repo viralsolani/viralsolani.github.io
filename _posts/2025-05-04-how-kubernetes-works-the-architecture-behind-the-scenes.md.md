@@ -16,7 +16,7 @@ tags:
 
 # 🔧 How Kubernetes Works: The Architecture Behind the Scenes
 
-> _Note: If you’re new to Kubernetes components, check out [Part 1 – What is Kubernetes & Overview of Components](https://viralsolani.github.io/devops/kubernetes/2025/05/12/what-is-kubernetes-and-components-overview.md.html) before diving into how it all works together._
+> _Note: If you’re new to Kubernetes components, check out [Part 1 – What is Kubernetes & Overview of Components](https://viralsolani.github.io/devops/kubernetes/2025/04/27/what-is-kubernetes-and-components-overview.html) before diving into how it all works together._
 
 Kubernetes is powerful — but understanding **how** it works under the hood makes it even more effective. Today, let’s break down the **Kubernetes architecture**, and see how various components like the Control Plane and Nodes work together to orchestrate containers.
 
