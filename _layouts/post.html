@@ -9,12 +9,11 @@ layout: default
     <p class="post-meta">
       {{ page.date | date: "%b %-d, %Y" }}
     </p>
+    {% include post-categories.html %}
   </header>
 
   <div class="post-content">
     {{ content }}
   </div>
-
-  {% include post-categories.html %}
 
 </article>
