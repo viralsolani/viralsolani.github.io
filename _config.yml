@@ -7,3 +7,16 @@ header_pages:
   - cv.md
 
 author: "Viral Solani"
+
+# Custom Navigation (for optional future use or theme customization)
+navigation:
+  - title: Home
+    url: /
+  - title: CV
+    url: /cv/
+  - title: GitLab
+    url: /categories/gitlab/
+  - title: Kubernetes
+    url: /categories/kubernetes/
+  - title: DevOps
+    url: /categories/devops/
