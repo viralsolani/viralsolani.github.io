@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+
+        <nav class="site-nav">
+          <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
+          <a class="page-link" href="{{ '/cv/' | relative_url }}">CV</a>
+
+          <div class="dropdown" style="display:inline-block; position:relative;">
+            <a class="page-link" href="#">Categories ▾</a>
+            <div class="dropdown-content" style="display:none; position:absolute; background:#fff; box-shadow:0 2px 5px rgba(0,0,0,0.2); padding:10px;">
+              <a class="page-link" href="{{ '/categories/gitlab/' | relative_url }}">GitLab</a><br>
+              <a class="page-link" href="{{ '/categories/kubernetes/' | relative_url }}">Kubernetes</a><br>
+              <a class="page-link" href="{{ '/categories/devops/' | relative_url }}">DevOps</a>
+            </div>
+          </div>
+
+          <script>
+            const dropdown = document.querySelector('.dropdown');
+            dropdown.addEventListener('mouseover', () => {
+              dropdown.querySelector('.dropdown-content').style.display = 'block';
+            });
+            dropdown.addEventListener('mouseout', () => {
+              dropdown.querySelector('.dropdown-content').style.display = 'none';
+            });
+          </script>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>
