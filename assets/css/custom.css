@@ -1,0 +1,96 @@
+/* Base typography and layout */
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+    line-height: 1.75;
+    margin: 0;
+  }
+  
+  /* Wrapper for centered layout */
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .site-title {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .site-nav .page-link {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  .site-nav .page-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Post List (home) */
+  .post-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .post-list li {
+    margin-bottom: 2.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1.5rem;
+  }
+  .post-list .post-meta {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  .post-list .post-link {
+    font-size: 1.4rem;
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .post-list .post-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Category tags */
+  .post-categories {
+    margin: 0.5rem 0 1rem;
+  }
+  .post-categories a {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #1a73e8;
+    padding: 3px 8px;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    margin-right: 8px;
+    text-decoration: none;
+  }
+  .post-categories a:hover {
+    background: #d2e3fc;
+  }
+  
+  /* Post content */
+  .post-content h1, h2, h3 {
+    color: #1a1a1a;
+  }
+  .post-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  .pagination {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+  .pagination a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0366d6;
+  }
+  
