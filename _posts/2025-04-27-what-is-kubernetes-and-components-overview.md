@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Kubernetes & Overview of Components"
-date: 2025-05-12
+date: 2025-04-27
 author: "Viral Solani"
 categories:
   - DevOps

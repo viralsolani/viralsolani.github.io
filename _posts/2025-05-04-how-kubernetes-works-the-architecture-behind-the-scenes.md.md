@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Kubernetes Works: The Architecture Behind the Scenes"
-date: 2025-05-19
+date: 2025-05-04
 author: "Viral Solani"
 categories:
   - DevOps
