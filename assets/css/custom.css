@@ -1,13 +1,14 @@
-/* Base typography and layout */
+/* Base layout similar to Minima with soft improvements */
 body {
-    font-family: 'Segoe UI', 'Roboto', sans-serif;
-    background-color: #f9f9fb;
-    color: #333;
-    line-height: 1.75;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
     margin: 0;
+    padding: 0;
   }
   
-  /* Wrapper for centered layout */
+  /* Container */
   .wrapper {
     max-width: 800px;
     margin: 0 auto;
@@ -16,81 +17,78 @@ body {
   
   /* Header */
   .site-header {
-    background-color: #1a1a1a;
+    background-color: #24292e;
     color: white;
-    padding: 1.2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
   }
   .site-title {
+    font-size: 1.6rem;
+    font-weight: bold;
     color: white;
-    font-size: 1.5rem;
     text-decoration: none;
   }
   .site-nav .page-link {
     color: white;
     margin-left: 20px;
+    font-weight: 500;
     text-decoration: none;
   }
   .site-nav .page-link:hover {
     text-decoration: underline;
   }
   
-  /* Post List (home) */
+  /* Post list on home */
   .post-list {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
   }
   .post-list li {
     margin-bottom: 2.5rem;
     border-bottom: 1px solid #eee;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
-  .post-list .post-meta {
-    color: #888;
+  .post-meta {
+    color: #6c757d;
     font-size: 0.9rem;
   }
-  .post-list .post-link {
+  .post-link {
     font-size: 1.4rem;
     color: #0366d6;
     text-decoration: none;
   }
-  .post-list .post-link:hover {
+  .post-link:hover {
     text-decoration: underline;
   }
   
   /* Category tags */
   .post-categories {
-    margin: 0.5rem 0 1rem;
+    margin-top: 0.5rem;
   }
   .post-categories a {
     display: inline-block;
-    background: #e8f0fe;
+    background-color: #f0f4ff;
     color: #1a73e8;
-    padding: 3px 8px;
+    padding: 3px 10px;
     font-size: 0.85rem;
-    border-radius: 4px;
     margin-right: 8px;
+    border-radius: 4px;
     text-decoration: none;
   }
   .post-categories a:hover {
-    background: #d2e3fc;
+    background-color: #dbe8fd;
   }
   
-  /* Post content */
-  .post-content h1, h2, h3 {
-    color: #1a1a1a;
-  }
-  .post-content img {
-    max-width: 100%;
-    height: auto;
-  }
+  /* Pagination */
   .pagination {
     margin-top: 3rem;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
   .pagination a {
     margin: 0 10px;
     text-decoration: none;
     color: #0366d6;
+  }
+  .pagination span {
+    color: #444;
   }
   
