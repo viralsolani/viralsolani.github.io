@@ -1,0 +1,7 @@
+{% if page.categories %}
+<p><strong>Categories:</strong>
+  {% for category in page.categories %}
+    <a href="/categories/{{ category | downcase }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+</p>
+{% endif %}
