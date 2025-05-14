@@ -20,3 +20,6 @@ navigation:
     url: /categories/kubernetes/
   - title: DevOps
     url: /categories/devops/
+
+paginate: 10
+paginate_path: "/page:num"
