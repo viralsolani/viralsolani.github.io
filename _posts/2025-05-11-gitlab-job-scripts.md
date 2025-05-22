@@ -1,6 +1,6 @@
 ---
 title: "Writing Efficient GitLab Jobs – before_script, script, and after_script"
-date: 2024-05-11
+date: 2025-05-11
 categories:
   - DevOps
   - Gitlab
