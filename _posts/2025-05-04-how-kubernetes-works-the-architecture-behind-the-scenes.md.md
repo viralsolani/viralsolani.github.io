@@ -22,7 +22,7 @@ Kubernetes is powerful — but understanding **how** it works under the hood mak
 
 ---
 
-## 🏗️ High-Level View
+## High-Level View
 
 At a high level, Kubernetes has two main categories of components:
 
@@ -33,52 +33,52 @@ Let’s explore both.
 
 ---
 
-## 🧠 Control Plane (Master Components)
+## Control Plane (Master Components)
 
 The Control Plane is responsible for making global decisions about the cluster and responding to cluster events.
 
-### 📡 API Server
+### API Server
 - The front door to your Kubernetes cluster
 - All commands (`kubectl`, REST calls) talk to the API server
 
-### 🧮 Scheduler
+### Scheduler
 - Assigns new Pods to Nodes
 - Makes decisions based on resource availability, affinity rules, taints, etc.
 
-### 🔄 Controller Manager
+### Controller Manager
 - Runs various background controllers
 - Ensures the actual state matches the desired state
 - Examples: Deployment Controller, Node Controller
 
-### ☁️ Cloud Controller Manager
+### Cloud Controller Manager
 - Connects your Kubernetes cluster to your cloud provider (e.g., AWS, Azure, GCP)
 - Manages external load balancers, persistent volumes, etc.
 
-### 🧠 etcd
+### etcd
 - A distributed key-value store used to persist cluster state
 - Stores data like Pod status, config maps, secrets, etc.
 
 ---
 
-## 💪 Worker Nodes (Where Pods Run)
+## Worker Nodes (Where Pods Run)
 
 Worker Nodes host the actual **containers** (via Pods). Each node has the following key components:
 
-### 👷 Kubelet
+### Kubelet
 - An agent that runs on each node
 - Communicates with the API Server
 - Ensures containers are running as expected
 
-### 🔗 Kube Proxy
+### Kube Proxy
 - Handles networking for Pods on the Node
 - Implements service discovery and routing rules
 
-### 🐳 Container Runtime
+### Container Runtime
 - The software that runs containers (e.g., containerd, Docker, CRI-O)
 
 ---
 
-## 🔁 How It All Works (End-to-End Flow)
+## How It All Works (End-to-End Flow)
 
 1. You submit a YAML file to the API Server (`kubectl apply -f app.yaml`)  
 2. The API Server stores this data in `etcd`  
@@ -89,7 +89,7 @@ Worker Nodes host the actual **containers** (via Pods). Each node has the follow
 
 ---
 
-## 🧭 Diagram Summary
+## Diagram Summary
 
         +------------------------+
         |     kubectl/API       |
@@ -114,7 +114,7 @@ Worker Nodes host the actual **containers** (via Pods). Each node has the follow
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 Kubernetes architecture may look complex at first, but it follows a clean separation of concerns:
 - The **Control Plane** manages the cluster  

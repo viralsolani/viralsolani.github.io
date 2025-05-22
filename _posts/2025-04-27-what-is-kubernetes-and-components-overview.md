@@ -22,104 +22,104 @@ Instead of manually managing containers one-by-one, Kubernetes allows you to man
 
 ---
 
-## 🧩 Kubernetes Components Overview
+## Kubernetes Components Overview
 
 Kubernetes is made up of several key components that work together to run your applications reliably at scale. Here's an overview:
 
-### 🧱 Cluster
+### Cluster
 - A **Cluster** is the top-level structure in Kubernetes that includes all components: control plane, worker nodes, and resources.
 
-### 🏷️ Namespace
+### Namespace
 - A logical grouping used to isolate workloads within a cluster.
 - Useful when multiple teams or environments (dev, test, prod) share the same cluster.
 
-### 🖥️ Node
+### Node
 - A physical or virtual machine.
 - Two types:
   - **Control Plane Node**: Manages the cluster.
   - **Worker Node**: Runs your application workloads.
 
-### 📦 Pod
+### Pod
 - The **smallest unit** in Kubernetes.
 - Wraps one or more containers.
 - Represents a single instance of a running process.
 
-### 🌐 Service
+### Service
 - Provides a stable IP and DNS name for accessing Pods.
 - Can load balance across multiple Pods.
 - Persists even if the underlying Pods are restarted or rescheduled.
 
-### 🚪 Ingress
+### Ingress
 - Manages external HTTP/S traffic and routes it to Services.
 - Offers routing rules, SSL termination, and virtual hosting.
 
 ---
 
-## 🧠 Control Plane Components
+## Control Plane Components
 
-### 📡 API Server
+### API Server
 - Acts as the front-end to the cluster.
 - All CLI commands or API requests go through the API Server.
 
-### 👷 Kubelet
+### Kubelet
 - Agent running on all Nodes.
 - Communicates with the API Server to manage Pods on its Node.
 
-### 🧑‍💻 KubeCTL
+### KubeCTL
 - Command-line tool to interact with the Kubernetes API Server.
 
-### 🔄 Controller Manager
+### Controller Manager
 - Watches the current state of the cluster and ensures the desired state matches.
 - Examples: Node controller, Replication controller, etc.
 
-### 🧮 Scheduler
+### Scheduler
 - Decides which Node a Pod should run on based on resource availability.
 
-### ☁️ Cloud Controller Manager
+### Cloud Controller Manager
 - Integrates Kubernetes with Cloud Service Providers like AWS, Azure, or GCP.
 
 ---
 
-## 🌐 Networking & Policies
+## Networking & Policies
 
-### 🔗 Kube Proxy
+### Kube Proxy
 - Maintains network rules and routes traffic inside the cluster.
 
-### 🔐 Network Policy
+### Network Policy
 - Virtual firewall for controlling communication at the Pod or Namespace level.
 
 ---
 
-## ⚙️ Configuration & Storage
+## Configuration & Storage
 
-### 🛠️ ConfigMap
+### ConfigMap
 - Stores non-sensitive config data as key-value pairs.
 
-### 🔑 Secret
+### Secret
 - Stores sensitive data like passwords, tokens, or SSH keys.
 
-### 💾 Volume
+### Volume
 - Mounts persistent storage to Pods — either local or cloud-based.
 
 ---
 
-## 🏗️ Workload Controllers
+## Workload Controllers
 
-### 🧬 Deployment
+### Deployment
 - Manages the rollout and lifecycle of Pods.
 - Think of it as a blueprint for your application.
 
-### 📊 ReplicaSet
+### ReplicaSet
 - Ensures a specified number of identical Pods are running.
 - Automatically replaces failed Pods.
 
-### 🗃️ StatefulSet
+### StatefulSet
 - Designed for **stateful** applications like databases.
 - Maintains order and identity of Pods.
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 By understanding these core building blocks, you're better prepared to architect, deploy, and manage reliable, scalable applications on Kubernetes.
 

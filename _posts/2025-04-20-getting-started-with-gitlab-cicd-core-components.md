@@ -23,7 +23,7 @@ Let’s break it down step-by-step:
 
 ---
 
-# 🛠️ 1️⃣ What is a Pipeline?
+# 1️⃣ What is a Pipeline?
 
 A **Pipeline** is a collection of **stages** that execute **jobs** automatically when changes are pushed to the repository.
 
@@ -31,7 +31,7 @@ Think of it as your automation engine! 🚀
 
 ---
 
-# 📌 2️⃣ What are Stages?
+# 2️⃣ What are Stages?
 
 A **Pipeline** is divided into multiple **stages** such as:
 
@@ -43,7 +43,7 @@ Each **stage** contains **jobs** that run in sequence, ensuring an organized wor
 
 ---
 
-# ⚙️ 3️⃣ What are Jobs?
+# 3️⃣ What are Jobs?
 
 A **Job** is a task performed inside a stage.  
 Each job has:
@@ -55,7 +55,7 @@ Each job has:
 
 ---
 
-# 💻 4️⃣ Script Execution Flow
+# Script Execution Flow
 
 Inside a job, the script execution follows:
 
@@ -65,7 +65,7 @@ Inside a job, the script execution follows:
 
 ---
 
-# 📝 Example: Simple `.gitlab-ci.yml`
+# Example: Simple `.gitlab-ci.yml`
 
 ```yaml
 stages:
@@ -95,7 +95,7 @@ deploy_job:
 
 ---
 
-# 🔥 Different Types of Pipelines in GitLab
+# Different Types of Pipelines in GitLab
 
 | Type | Description |
 |:--|:--|
@@ -107,7 +107,7 @@ deploy_job:
 
 ---
 
-# 🎯 Conclusion
+# Conclusion
 
 GitLab CI/CD simplifies how teams build, test, and deploy software.  
 Starting simple — by automating build and test stages — sets a strong DevOps foundation.
