@@ -98,7 +98,7 @@ Roll back to the previous version:
 kubectl rollout undo deployment/my-app
 ```
 
-### Conclusion
+## Conclusion
 
 Pods are the basic execution unit
 
