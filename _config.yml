@@ -20,6 +20,10 @@ navigation:
     url: /categories/kubernetes/
   - title: DevOps
     url: /categories/devops/
+  - title: API Security 
+    url: /categories/api-security/
+  - title: Agile Leadership
+    url: /categories/api-leadership/    
 
 paginate: 10
 paginate_path: "/page:num"
