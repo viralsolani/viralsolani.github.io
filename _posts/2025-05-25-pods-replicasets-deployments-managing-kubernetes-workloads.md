@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🧱 Pods, ReplicaSets & Deployments – Managing Kubernetes Workloads"
+title: "Pods, ReplicaSets & Deployments – Managing Kubernetes Workloads"
 date: 2025-05-25
 author: "Viral Solani"
 categories:
@@ -86,22 +86,17 @@ spec:
 
 ✅ This will ensure 3 Pods are always running using the `my-app-image:v1` image.
 
-## 🔄 Updates & Rollbacks
+## Updates & Rollbacks
 You can update the image version:
 
 ```bash
 kubectl set image deployment/my-app my-app=my-app-image:v2
-
+```
 Roll back to the previous version:
 
 ```bash
 kubectl rollout undo deployment/my-app
-
-
-
-Roll back to the previous version:
-
-kubectl rollout undo deployment/my-app
+```
 
 ### Conclusion
 
