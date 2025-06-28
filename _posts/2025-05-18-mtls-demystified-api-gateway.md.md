@@ -5,7 +5,6 @@ date: 2025-05-18
 categories:
   - API Security
   - DevOps
-  - Zero Trust
 tags:
   - mTLS
   - TLS
